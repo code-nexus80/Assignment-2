@@ -28,6 +28,20 @@
     cursor: pointer;
     border-radius: 10000px;
 }
+/* main{
+    max-width: 1200px;
+    margin: 0 auto;
+} */
+main>section{
+    margin-top: 80px;
+}
+.section-heading{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
 /* header style */
 .navbar , .banner{
     max-width: 1200px;
@@ -72,8 +86,87 @@
 /* hero section style */
 
 
+/* about section style */
+
+.about{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 80px 20px;
+}
+.about-description{
+    color: #FFFFFF;
+}
+.about-container{    
+    text-align: center;
+}
+.rating-card{
+    margin-top: 130px;
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    gap: 80px;
+}
+.description-gap{
+    margin-top: 30px;
+    color: #FFFFFF;
+}
 
 
+
+.number{
+    font-size: 3rem;
+    font-weight: 600;
+    color: #00FF88;
+}
+.name{
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+.feture-section{
+    background-color: #230E3D;
+    padding: 40px 0;
+    text-align: center;
+     
+     
+}
+
+.all-box{
+    max-width: 1200px;
+    margin: 40px auto;   
+    min-height: 600px;
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    grid-template-rows: repeat(3 , 273px);
+    gap: 30px;
+    border-radius: 40px;
+    
+    
+    
+}
+.feture-head{
+    padding-top: 80px;
+}
+
+.box-1{    
+    grid-row: 1/3 ;
+    border-radius: 40px;    
+}
+.box-2 {
+    grid-column: 2/4;
+    border-radius: 40px;
+}
+.box-3{
+    grid-column: 2/4;
+    border-radius: 40px;
+}
+.box-4{
+    grid-column: 1/3;
+    border-radius: 40px;
+}
+.box-5{
+    grid-column: 3/4;
+    border-radius: 40px;
+}
 
 
 
@@ -105,5 +198,10 @@
 .btn-nav{
     display: none;
 }
+.rating-card{
+    grid-template-columns: repeat(2 , 1fr);
+}
+
+
     
 }
