@@ -253,6 +253,7 @@ main>section{
 .all-item{
     display: flex;
     background-color: rgba(53, 17, 101, 0.4);
+    border-radius: 40px;
 }
 .host-pic{
     margin: 40px;
@@ -280,6 +281,39 @@ main>section{
     
     
     
+}
+.footer{
+    background-image: url(../B13-A02-TechWave/assets/footer-bg.png);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    margin-top: 100px;
+    padding: 70px 20px;   
+    
+    
+}
+.footer-title{
+    font-size: 3.5rem;
+    color: #FFFFFF;
+    
+}
+.social-icons{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    gap: 20px;
+}
+.icons{
+    text-decoration: none;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.fotter-copy{
+    color: #FFFFFF;
+    padding-top: 20px;
 }
     
 
@@ -352,6 +386,10 @@ main>section{
     color: #FFFFFF;
     align-items: center;
 }
+.social-icons{
+    flex-wrap: wrap;
+}
+
 
 
     
