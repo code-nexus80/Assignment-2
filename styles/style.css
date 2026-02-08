@@ -39,7 +39,7 @@ main>section{
     font-size: 2.5rem;
     font-weight: 700;
     color: #FFFFFF;
-    margin-bottom: 20px;
+    margin-bottom: 20px;    
 }
 
 /* header style */
@@ -186,11 +186,68 @@ main>section{
     grid-column: 3/4;
     border-radius: 40px;
 }
+.YT-section{
+    margin-bottom: 50px;
+}
+
+.yt-container{
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+.section-title{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+
+.card-section{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    gap: 30px;
+}
+.cards{
+    background-color:rgba(53, 17, 101, 0.4);
+    border-radius: 16px;
+    overflow: hidden;
+    
+}
+.yt-video{
+    width: 100%;
+    height: 300px;
+    
+    
+}
+.yt-video iframe{
+    width: 100%;
+    height: 90%;
+}
+.episode-title{
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 15px;
+    
+}
+.episode-description{
+    color: #FFFFFF;
+    padding: 15px;
+}
+.duration{
+    display: flex;
+    align-items: flex-start;
+    padding: 15px;
+    gap: 10px;
+    color: #00FF88;
+}
 
 .host-section{
     max-width: 1200px;
     margin: 0 auto;
     justify-items: center;
+    
    
 }
 .all-item{
@@ -276,6 +333,9 @@ main>section{
   .feture-head{
     padding-top: 0px;
     padding-left: 40px;
+}
+.card-section{    
+    grid-template-columns: repeat(1 , 1fr);    
 }
 
 .all-item{
